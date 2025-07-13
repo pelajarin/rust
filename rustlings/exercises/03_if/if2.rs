@@ -2,17 +2,9 @@
 fn picky_eater(food: &str) -> &str {
     if food == "strawberry" {
         "Yummy!"
-    } else if food == "potato" {
-        "I guess I can eat that."
     } else {
-        "No thanks!"
+        1
     }
-    // or else use match syntax
-    // match food {
-    //     "strawberry" => "Yummy!",
-    //     "potato" => "I guess I can eat that.",
-    //     _ => "No thanks!",
-    // }
 }
 
 fn main() {
