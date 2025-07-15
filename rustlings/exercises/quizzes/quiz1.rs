@@ -16,6 +16,13 @@ fn main() {
     // You can optionally experiment here.
 }
 
+fn calculate_price_of_apples(apples: i32) -> i32 {
+    match apples.cmp(&40) {
+        std::cmp::Ordering::Greater => apples,
+        _ => apples * 2,
+    }
+}
+
 // Don't change the tests!
 #[cfg(test)]
 mod tests {
