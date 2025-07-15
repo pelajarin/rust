@@ -44,6 +44,7 @@
           cargo-watch
           rust-analyzer
           lldb
+          rustlings
         ];
 
         env = {
